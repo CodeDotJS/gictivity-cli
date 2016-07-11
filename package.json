@@ -1,0 +1,53 @@
+{
+  "name": "gictivity-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to track activities of a github user",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codedotjs/gictivity-cli.git"
+  },
+  "author": "Rishi Giri <rushforlinux@gmail.com> (rishigiri.com)",
+  "bin": {
+    "gic": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "git",
+    "github",
+    "user",
+    "issues",
+    "pull-requests",
+    "contribution",
+    "month",
+    "week",
+    "year",
+    "day",
+    "days",
+    "track"
+  ],
+  "dependencies": {
+    "gictivity": "^1.0.1",
+    "chalk": "^1.1.3",
+    "update-notifier": "^1.0.2",
+    "ora": "^0.2.1",
+    "log-update": "1.0.2"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "xo": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/codedotjs/gictivity-cli/issues"
+  },
+  "homepage": "https://github.com/codedotjs/gictivity-cli#readme",
+  "main": "cli.js"
+}
