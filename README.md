@@ -1,8 +1,16 @@
-# gictivity-cli 
+# ![trash](media/gic.png)
 
-> CLI tool to track activites of a github user.
+> Command line tool to track activities of a Github user
 
-[![Build Status](https://travis-ci.org/CodeDotJS/gictivity-cli.svg?branch=master)](https://travis-ci.org/CodeDotJS/gictivity-cli)
+<h1 align="center">
+<br>
+<img src="media/gic.gif">
+<br>
+<br>
+<a "https://travis-ci.org/CodeDotJS/gictivity-cli">
+<img src="https://travis-ci.org/CodeDotJS/gictivity-cli.svg?branch=master">
+</a>
+</h1> 
 
 ## Install
 
