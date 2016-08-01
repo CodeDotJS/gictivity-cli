@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 'use strict';
 
+const dns = require('dns');
 const gictivity = require('gictivity');
 const chalk = require('chalk');
 const ora = require('ora');
@@ -17,6 +18,14 @@ const getArg = process.argv[3];
 
 const pre = `${chalk.bold.cyan('›')} `;
 const message = `${chalk.dim(`username required`)}`;
+
+dns.lookup('github.com', err => {
+	if (err && err.code === 'ENOTFOUND') {
+		logUpdate();
+		console.log(`${chalk.red('›')} ${chalk.dim('Please check your internet connection\n')}`);
+		process.exit(1);
+	}
+});
 
 if (!arg || arg === '--help') {
 	console.log(`
