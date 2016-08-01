@@ -1,7 +1,7 @@
 {
   "name": "gictivity-cli",
   "version": "1.0.0",
-  "description": "CLI tool to track activities of a github user",
+  "description": "Command line tool to track activities of a Github user",
   "license": "MIT",
   "repository": {
     "type": "git",
